@@ -49,3 +49,33 @@ nano hosts
 ```
 cp hosts ../jenkins_home/ansible/
 ```
+
+
+Test connection:
+
+```
+docker exec -ti jenkins bash
+ping remote_host
+```
+
+Unfortunatelly I have received an ERROR: ping: command not found, so I logged with root user into Jenkins container and install following package:
+
+```
+docker exec -u 0 -ti jenkins bash
+apt-get update
+apt-get install -y iputils-ping
+exit
+```
+
+And logged again:
+
+```
+docker exec -ti jenkins bash
+ping remote_host
+```
+
+
+
+ansible all --list-hosts
+ansible -i hosts -m ping test1
+```
