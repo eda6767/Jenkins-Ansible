@@ -102,3 +102,9 @@ ansible-playbook -i hosts play.yml
 <img width="993" alt="Zrzut ekranu 2023-07-23 o 13 29 24" src="https://github.com/eda6767/Jenkins-Ansible/assets/102791467/3cf9dbfd-9bff-4c7a-a52c-5af85cd4d761">
 
 
+<br>
+Next step is installing plugins Ansible on Jenkins :
+
+<img width="1015" alt="Zrzut ekranu 2023-07-23 o 14 27 48" src="https://github.com/eda6767/Jenkins-Ansible/assets/102791467/8c9cee08-3da6-4292-b133-3ef9c3d872ac">
+
+
