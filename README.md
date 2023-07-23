@@ -75,7 +75,7 @@ ping remote_host
 ```
 
 
-
+```
 ansible all --list-hosts
 ansible -i hosts -m ping test1
 ```
