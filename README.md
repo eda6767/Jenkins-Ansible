@@ -28,3 +28,24 @@ docker exec -ti jenkins bash
 ansible
 ```
 
+Now to make the SSH key pernament on the Jenkins container let's make subdirectory in $HOME directory and copy the remote-key file into this new subdirectory.
+
+```
+mkdir jenkins_home/ansible
+cp centos/remote-key jenkins_home/ansible/
+ls jenkins_home/ansible
+```
+
+### Create Inverntory for Ansible
+
+```
+cd jenkins-ansible
+cp ../centos/remote-key .
+nano hosts
+```
+<img width="994" alt="Zrzut ekranu 2023-07-23 o 11 52 29" src="https://github.com/eda6767/Jenkins-Ansible/assets/102791467/322874ac-ebf3-4550-8ea3-e099df2a58bf">
+
+
+```
+cp hosts ../jenkins_home/ansible/
+```
