@@ -79,3 +79,19 @@ ping remote_host
 ansible all --list-hosts
 ansible -i hosts -m ping test1
 ```
+
+### Ansible Playbook
+
+```
+cd jenkins-ansible
+nano play.yml
+```
+
+<img width="848" alt="Zrzut ekranu 2023-07-23 o 13 17 17" src="https://github.com/eda6767/Jenkins-Ansible/assets/102791467/f5dda64c-f449-4642-a32e-f99e388b2dc4">
+
+```
+cp play.yml ../jenkins_home/ansible/
+docker exec -ti jenkins bash
+cd /var/jenkins_home/ansible
+ansible-playbook -i hosts play.yml
+```
