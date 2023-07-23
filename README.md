@@ -14,6 +14,8 @@ nano Dockerfile
 
 Also we need to update the docker-compose.yml file for jenkins container.
 
+<br/>
+
 <img width="650" alt="Zrzut ekranu 2023-07-23 o 11 14 44" src="https://github.com/eda6767/Jenkins-Ansible/assets/102791467/e457adb4-7ce6-4bed-b019-d3edc4ea624a">
 
 ```
@@ -21,7 +23,7 @@ docker-compose up -d
 docker ps
 ```
 To verify the installation on Ansible, let's logg into jenkins container:
-
+<br/>
 
 ```
 docker exec -ti jenkins bash
