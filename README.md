@@ -108,3 +108,11 @@ Next step is installing plugins Ansible on Jenkins :
 <img width="1015" alt="Zrzut ekranu 2023-07-23 o 14 27 48" src="https://github.com/eda6767/Jenkins-Ansible/assets/102791467/8c9cee08-3da6-4292-b133-3ef9c3d872ac">
 
 
+Next step is to create a job:
+
+<img width="1043" alt="Zrzut ekranu 2023-07-23 o 14 32 03" src="https://github.com/eda6767/Jenkins-Ansible/assets/102791467/eb5724de-cb95-40fc-a640-edd4547384eb">
+
+
+<img width="922" alt="Zrzut ekranu 2023-07-23 o 14 35 16" src="https://github.com/eda6767/Jenkins-Ansible/assets/102791467/26d9aed8-466a-4b58-b020-ed74c58b85db">
+
+
