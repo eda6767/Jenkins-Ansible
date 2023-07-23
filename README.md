@@ -87,7 +87,9 @@ cd jenkins-ansible
 nano play.yml
 ```
 
-<img width="848" alt="Zrzut ekranu 2023-07-23 o 13 17 17" src="https://github.com/eda6767/Jenkins-Ansible/assets/102791467/f5dda64c-f449-4642-a32e-f99e388b2dc4">
+<img width="929" alt="Zrzut ekranu 2023-07-23 o 13 28 38" src="https://github.com/eda6767/Jenkins-Ansible/assets/102791467/c791ccbf-870c-4087-8181-6de5b63ef815">
+
+
 
 ```
 cp play.yml ../jenkins_home/ansible/
@@ -95,3 +97,8 @@ docker exec -ti jenkins bash
 cd /var/jenkins_home/ansible
 ansible-playbook -i hosts play.yml
 ```
+
+
+<img width="993" alt="Zrzut ekranu 2023-07-23 o 13 29 24" src="https://github.com/eda6767/Jenkins-Ansible/assets/102791467/3cf9dbfd-9bff-4c7a-a52c-5af85cd4d761">
+
+
